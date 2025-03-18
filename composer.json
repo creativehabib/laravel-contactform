@@ -1,0 +1,25 @@
+{
+    "name": "habiblaravel/contactform",
+    "description": "Laravel contact form package",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Habiblaravel\\Contactform\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Habiblaravel\\Contactform\\ContactFormServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Habibur Rahaman"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
